@@ -1,4 +1,4 @@
-This is a video Encoder bots code using ffmpeg. #    This file is part of the CompressorQueue distribution.
+#This is a video Encoder bots code using ffmpeg. #    This file is part of the CompressorQueue distribution.
 #    Copyright (c) 2021 Danish_00
 #    Script Improved by Zylern
 
