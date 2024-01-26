@@ -130,7 +130,7 @@ async def encod(event):
         else:
             return
         if WORKING or QUEUE:
-            time.sleep(2)
+            time.sleep(1)
             xxx = await event.reply("**Adding To Queue...**")
             # id = pack_bot_file_id(event.media)
             doc = event.media.document
