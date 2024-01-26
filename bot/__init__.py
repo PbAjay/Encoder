@@ -26,14 +26,8 @@ from html_telegraph_poster import TelegraphPoster
 from telethon import Button, TelegramClient, errors, events, functions, types
 from telethon.sessions import StringSession
 from telethon.utils import pack_bot_file_id
-from aiohttp import web
-from plugins import web_server
 from .config import *
-PORT = environ.get("PORT", "8080")
-app = web.AppRunner(await web_server())
-        await app.setup()
-        bind_address = "0.0.0.0"
-        await web.TCPSite(app, bind_address, PORT).start()
+
 LOG_FILE_NAME = "TGVid-Comp@Log.txt"
 
 
